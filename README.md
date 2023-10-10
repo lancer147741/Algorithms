@@ -2,11 +2,12 @@
 
 
 1. Binary Search
-https://leetcode.com/tag/binary-search/ # Задачи для тренировки
+[Задачи для тренировки](https://leetcode.com/tag/binary-search/)
 ---
 ## Бинарный поиск - это алгоритм поиска элемента в отсортированном списке данных. Он работает следующим образом:
 
-```1.Принимает на вход отсортированный список элементов.
+```
+1.Принимает на вход отсортированный список элементов.
 2.Задает начальный и конечный индекс для этого списка.
 3.Находит средний индекс между начальным и конечным индексом.
 4.Сравнивает элемент по среднему индексу с целевым элементом, который мы ищем.
@@ -17,9 +18,10 @@ https://leetcode.com/tag/binary-search/ # Задачи для тренировк
 (Алгоритм - бинарный поиск в файле с названием Binary_Search.py)
 ```
 
-Рассмотрим задачу - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+[Рассмотрим данную задачу](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 Тут надо найти минимальное число в отсортированном вращенном(сдвинутом) массиве:
-```class Solution:
+```
+class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1
         while left < right:
